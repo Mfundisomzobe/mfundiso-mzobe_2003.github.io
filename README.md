@@ -170,7 +170,7 @@ View Project
 <span class="text-primary font-medium">About Me</span>
 <h2 class="text-4xl font-bold mt-2 mb-6 text-white">Crafting Digital Experiences With Passion</h2>
 <p class="text-slate-300 mb-6">
-Final year Diploma student in Information Technology Software Development at Nelson Mandela University, driven by a passion for technology and innovation. I specialize in web development, user-friendly interface design, and data analytics.
+Final year  student in Information Technology Software Development at Nelson Mandela University, driven by a passion for technology and innovation. I specialize in web development, user-friendly interface design, and data analytics.
 </p>
 <p class="text-slate-300 mb-8">
 Experienced in both collaborative and individual projects, I bring strong troubleshooting, problem-solving, and analytical thinking skills. My expertise extends to systems design and analysis, decision support systems, and cost-effective coding practices.
