@@ -287,7 +287,7 @@ I'm always open to discussing new projects, creative ideas or opportunities to b
 </div>
 <div>
 <h4 class="text-white font-medium mb-1">LinkedIn</h4>
-<a href="https://linkedin.com/in/your-profile" class="text-slate-300 hover:text-primary transition-colors">View Profile</a>
+<a href="https://www.linkedin.com/in/mfundiso-mzobe-87b40a27a/" class="text-slate-300 hover:text-primary transition-colors">View Profile</a>
 </div>
 </div>
 </div>
