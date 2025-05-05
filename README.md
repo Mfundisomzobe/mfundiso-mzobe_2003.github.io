@@ -108,9 +108,7 @@ Contact Me
 <div class="mb-10 flex justify-center">
 <div class="inline-flex bg-slate-800 p-1 rounded-full">
 <button class="px-6 py-2 rounded-full bg-primary text-white font-medium whitespace-nowrap">All</button>
-<button class="px-6 py-2 rounded-full text-slate-300 font-medium whitespace-nowrap">UI/UX</button>
-<button class="px-6 py-2 rounded-full text-slate-300 font-medium whitespace-nowrap">Branding</button>
-<button class="px-6 py-2 rounded-full text-slate-300 font-medium whitespace-nowrap">Web Design</button>
+
 </div>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
