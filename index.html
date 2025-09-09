@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
 
 
@@ -179,7 +180,7 @@
                         Experienced in both collaborative and individual projects, I bring strong troubleshooting, problem-solving, and analytical thinking skills. My expertise extends to systems design and analysis, decision support systems, and cost-effective coding practices.
                     </p>
                    
-                    <a href="files/Mfundiso_Mzobe_CV.pdf" download="Mfundiso_Mzobe_CV.pdf"
+                    <a href="Mfundiso_Mzobe_CV.pdf" download="Mfundiso_Mzobe_CV.pdf"
                        class="px-8 py-3 bg-primary hover:bg-opacity-90 text-white font-medium !rounded-button whitespace-nowrap transition-all inline-flex items-center justify-center">
                         Download CV
                         <i class="ri-download-line ml-2"></i>
@@ -189,38 +190,82 @@
             </div>
         </div>
     </section>
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="py-20 bg-[#0c1424]">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
-                <span class="text-primary font-medium">My Recent Work</span>
-                <h2 class="text-4xl font-bold mt-2 text-white">Ward Management System</h2>
-            </div>
+   <!-- Portfolio Section -->
+<section id="portfolio" class="py-20 bg-[#0c1424]">
+    <div class="container mx-auto px-6">
+        
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+            <span class="text-primary font-medium tracking-wide">
+                My Recent Work
+            </span>
+            <h2 class="text-4xl font-bold mt-2 text-white">
+                Ward Management System
+            </h2>
+        </div>
+        
+        <!-- Portfolio Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-                <!-- Portfolio Item 4 -->
-                <div class="portfolio-item rounded-lg overflow-hidden relative group">
-                    <img src="images/Screenshot (64).png" alt="Ward Management System" class="w-full h-72 object-cover">
-                    <div class="portfolio-overlay absolute inset-0 bg-primary bg-opacity-80 flex flex-col justify-end p-6">
-                        <h3 class="text-xl font-bold text-white">Ward Management System</h3>
-                        <p class="text-white text-opacity-80 mb-4">C# & ASP.NET Core MVC,Entityframework,SQL</p>
-                        <a href="#" class="text-white inline-flex items-center">
-                            View Project
-                            <i class="ri-arrow-right-line ml-2"></i>
+            <!-- Portfolio Card -->
+            <div class="portfolio-item rounded-xl overflow-hidden relative group shadow-lg">
+                <img src="images/Screenshot (64).png" 
+                     alt="Ward Management System" 
+                     class="w-full h-72 object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                
+                <!-- Overlay -->
+                <div class="portfolio-overlay absolute inset-0 bg-primary bg-opacity-90 opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-end p-6 rounded-xl">
+                    
+                    <h3 class="text-2xl font-bold text-white mb-2">
+                        Ward Management System
+                    </h3>
+                    
+                    <!-- Short Description -->
+                    <p class="text-white text-opacity-80 mb-4 text-sm">
+                        A hospital ward management system for managing patients, nurses, and resources. 
+                        Built with ASP.NET Core MVC, Entity Framework, and SQL Server.
+                    </p>
+                    
+                    <!-- Buttons -->
+                    <div class="flex items-center gap-4">
+                        <span class="px-4 py-2 bg-red-500 text-white text-sm rounded-full">
+                            No Live Website
+                        </span>
+                        
+                        <a href="https://github.com/Mfundisomzobe/WardManagementSystem" target="_blank"
+                           class="px-4 py-2 bg-white text-primary font-medium rounded-full shadow hover:bg-gray-100 transition">
+                            View Code
                         </a>
                     </div>
                 </div>
-                
-                
             </div>
-            <div class="text-center mt-12">
-
-                <i class="ri-arrow-right-line ml-2"></i>
-                </a>
+            
+            <!-- Tech Stack Icons -->
+            <div class="flex flex-wrap justify-center lg:justify-start gap-8">
+                <!-- C# -->
+                <div class="flex flex-col items-center">
+                    <i class="devicon-csharp-plain colored text-5xl"></i>
+                    <span class="text-white text-sm mt-2">C#</span>
+                </div>
+                <!-- ASP.NET Core -->
+                <div class="flex flex-col items-center">
+                    <i class="devicon-dot-net-plain colored text-5xl"></i>
+                    <span class="text-white text-sm mt-2">ASP.NET Core</span>
+                </div>
+                <!-- Entity Framework -->
+                <div class="flex flex-col items-center">
+                    <i class="devicon-dotnetcore-plain colored text-5xl"></i>
+                    <span class="text-white text-sm mt-2">Entity Framework</span>
+                </div>
+                <!-- SQL Server -->
+                <div class="flex flex-col items-center">
+                    <i class="devicon-microsoftsqlserver-plain colored text-5xl"></i>
+                    <span class="text-white text-sm mt-2">SQL Server</span>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
    
     <!-- Contact Section -->
     <section id="contact" class="py-20">
@@ -473,3 +518,4 @@ this.classList.add('bg-primary', 'text-white');
 </script>
 </body>
 </html>
+
